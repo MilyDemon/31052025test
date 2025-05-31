@@ -46,3 +46,4 @@ jobs:
             server: ${{ secrets.host }}
             username: ${{ secrets.login }}
             password: ${{ secrets.password }}
+            server-dir: ${{ secrets.directory }}
