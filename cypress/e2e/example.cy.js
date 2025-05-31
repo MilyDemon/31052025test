@@ -1,6 +1,6 @@
-describie('my first test suite', () => {
-    it('My first test Case', () => {
+describe('My First Test Suite', () => {
+    it('My First Test Case', () => {
         cy.visit('/');
-        cy.contains('h1', 'Hello World');
+        cy.contains('h1','Hello World');
     });
 });
