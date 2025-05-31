@@ -1,0 +1,17 @@
+{
+    "name": "cypress-project",
+    "version": "1.0.0",
+    "description": "Sa Simple project Cypress project",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "cy:open": "cypress open",
+        "cy:run": "cypress run"
+     },
+    "dependencies": {
+        "express":"^4.17.1"
+    },
+    "devDependencies": {
+        "cypress": "^12.0.0"
+    }
+}
